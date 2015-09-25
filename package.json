@@ -1,0 +1,16 @@
+{
+  "name": "hacka",
+  "version": "1.0.0",
+  "description": "wuuuuut?",
+  "main": "hack.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "p13t",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^2.3.0",
+    "firebase-rx": "0.0.0",
+    "rx": "^3.1.2"
+  }
+}

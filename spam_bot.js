@@ -1,0 +1,1 @@
+fb = require('firebase')
