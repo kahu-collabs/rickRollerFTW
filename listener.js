@@ -24,7 +24,11 @@ var playUrlCommands = playCommands.filter(function(playCommand){
   return argument.match(/http/) 
 })
 
-playUrlCommands.subscribe(function(x){
+var rolls = playUrlCommands.filter(function(playUrlCommand){
+  return playUrlCommand.match(/astley/)
+})
+
+rolls.subscribe(function(x){
   console.log(x)
 })
 
