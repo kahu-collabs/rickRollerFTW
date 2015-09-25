@@ -40,6 +40,13 @@ var astleyImages = [
   'https://theurbanpastor.files.wordpress.com/2012/03/rick_astley.jpg',
   'https://upload.wikimedia.org/wikipedia/commons/f/f9/Rick_Astley_Tivoli_Gardens.jpg',
   'http://images5.fanpop.com/image/photos/31100000/He-s-soo-cute-rick-astley-31190444-620-349.png',
+  'http://www.mtv.com/crop-images/2013/09/04/Rick%20Astley%20Getty%20Scott%20Campbell%202013.jpg',
+  'http://www.thetimes.co.uk/tto/multimedia/archive/00184/43501444_astley_184349c.jpg',
+  'http://i.ytimg.com/vi/dQw4w9WgXcQ/sddefault.jpg',
+  'http://cps-static.rovicorp.com/3/JPG_400/MI0002/749/MI0002749431.jpg?partner=allrovi.com',
+  'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQIfltuJ9dSpQmJJlB5G4IqLy_FvcL1adUXRZx_7UAFKMcTdH6IAQ',
+  'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSeQbPaWFC08ZV8VLqPbwppHcEwCmYaj2Kbj38wKqELXzO_s9_9',
+  'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQb_84Qhfr0xvcuc6f7vMERH9CiNS_Rs0xHYXrBizroyNx-IEAJyQ',
 ]
 
 rolls.subscribe(function(x){
