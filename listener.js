@@ -1,10 +1,11 @@
 var fb = require('firebase')
 var FirebaseRx = require('firebase-rx');
+var giphy = require( 'giphy' )( 'dc6zaTOxFJmzC' )
 
 ref = new fb('https://sweltering-inferno-8171.firebaseio.com/kahu')
 
 var source = new FirebaseRx('https://sweltering-inferno-8171.firebaseio.com/kahu')
-  .observe('child_added')
+.observe('child_added')
 
 var values = source.map(function(item){
   return item.snapshot.val()
@@ -50,10 +51,13 @@ var astleyImages = [
 ]
 
 rolls.subscribe(function(x){
-  for(i=0; i< astleyImages.length; i++){
-	var a = astleyImages[i]
-	ref.push({command: "draw " + a})
-  }
+  giphy.search({q:'astley'}, function(err, results){
+
+	for(i=0; i<10;i++){
+	  ref.push({command: "draw " + results.data[i].embed_url})
+	  console.log(results.data[i].embed_url)
+	}
+  })
   console.log(x)
 })
 
